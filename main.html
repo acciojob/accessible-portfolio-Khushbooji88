@@ -4,12 +4,42 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+		nav[role="navigation"] {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+nav[role="navigation"] a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+    </style>
 </head>
 
 <body>
+	<img src="https://web-accessibility.carnegiemuseums.org/foundations/aria/" alt="Description of the image">
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<h1 role="heading">Heading</h1>
+	
+	<ul role="list">
+    <li role="listitem">Item 1</li>
+    <li role="listitem">Item 2</li>
+    <li role="listitem">Item 3</li>
+</ul>
+<nav role="navigation">
+    <a href="#section1">Section 1</a>
+    <a href="#section2">Section 2</a>
+    <a href="#section3">Section 3</a>
+</nav>
+	
 
 </body>
 
